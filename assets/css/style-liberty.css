@@ -18093,7 +18093,7 @@ nav ul li a:before {
 }
 
 .w3l-main-slider .banner-view {
-  background: url(../images/banner1.jpg) no-repeat center;
+  background: url(../images/banner1\ \(2\).jpg) no-repeat center;
   -ms-background-size: cover;
   background-size: cover;
   z-index: 0;
@@ -18105,12 +18105,12 @@ nav ul li a:before {
 }
 
 .w3l-main-slider .banner-top2 {
-  background: url(../images/banner2.jpg) no-repeat center;
+  background: url(../images/banner2\ \(2\).jpg) no-repeat center;
   background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/banner\ 3\ \(2\).jpg) no-repeat center;
   background-size: cover;
 }
 
