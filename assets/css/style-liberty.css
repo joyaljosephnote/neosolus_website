@@ -20007,7 +20007,7 @@ p.para-counter {
 /*--/w3l-services3--*/
 
 .w3l-services3 .new-block {
-  background: url(../images/banner3.jpg) no-repeat center;
+  background: url(../images/askBy\ Clients.jpg) no-repeat center;
   background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -20084,7 +20084,7 @@ p.para-counter {
   }
 }
 
-@media all and (max-width:480px) {
+@media all and (max-width:250px) {
 
   .w3l-3-grids .w3-grids3-info,
   .w3l-3-grids .w3-grids3-info.second {
