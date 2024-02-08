@@ -17147,6 +17147,21 @@ readers do not read off random characters that represent icons */
   --bg-grey: #f7f7f7;
   --footer-bg: #0f1113;
   --card-bg: #fff;
+  /* --primary-color: #ff0000;
+  --secondary-color: #fdd340;
+  --font-color: #afafaf;
+  --bg-color: #232220;
+  --heading-color: #eee;
+  --border-color: rgba(255, 255, 255, 0.2);
+  --border-color-light: rgba(255, 255, 255, 0.1);
+  --nav-color: #fff;
+  --dropdown-color: #121725;
+  --iframe-filter: grayscale(100%);
+  --bg-layer: rgb(0 0 0 / 75%);
+  --bg-light: #151515;
+  --bg-grey: #181818;
+  --card-bg: #888c96;
+  --footer-bg: #0f1113; */
 }
 
 [data-theme="dark"] {
@@ -19557,7 +19572,7 @@ p.para-counter {
 
 /*--/w3l-news--*/
 .w3l-news #grids5-block {
-  background: var(--bg-color);
+  background: var(--bg-light);
 }
 
 .w3l-news a.zoom {
