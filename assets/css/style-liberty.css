@@ -20132,7 +20132,9 @@ p.para-counter {
   font-weight: 600;
 }
 
-.w3l-error-grid .form-control {
+
+.w3l-error-grid .form-control,
+.w3l-error-grid .form-control select {
   color: var(--font-color);
   padding: 12px 120px 12px 25px;
   font-size: 18px;
@@ -20149,7 +20151,9 @@ p.para-counter {
   margin: 0 auto;
 }
 
-.w3l-error-grid .form-control:focus {
+
+.w3l-error-grid .form-control:focus,
+.w3l-error-grid .form-control select:focus {
   box-shadow: none;
   background: var(--bg-grey);
   border: 1px solid var(--primary-color);
@@ -21250,6 +21254,7 @@ h3.component-heading {
 }
 
 .map-content-9 form input,
+.map-content-9 form select,
 .map-content-9 form textarea {
   background: var(--bg-grey);
   border: 1px solid var(--bg-grey);
@@ -21275,6 +21280,7 @@ h3.component-heading {
 }
 
 .map-content-9 form input:focus,
+.map-content-9 form select:focus,
 .map-content-9 form textarea:focus {
   outline: none;
   border: 1px solid var(--primary-color);
@@ -21329,6 +21335,7 @@ h3.component-heading {
 @media (max-width: 384px) {
 
   .map-content-9 form input,
+  .map-content-9 form select,
   .map-content-9 form textarea {
     height: 54px;
   }
