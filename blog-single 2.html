@@ -13,97 +13,57 @@
 </head>
 
 <body>
-    <!--header-->
-    <header id="site-header" class="fixed-top">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
-            <h1> <a style="color: red;" class="navbar-brand" href="index.html"> 
-              NEOSOLUS
-            </a></h1>
-              <!-- if logo is image enable this   
-  <a class="navbar-brand" href="#index.html">
-      <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-  </a> -->
-              <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                  data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                  <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </button>
+  <!--header-->
+  <header id="site-header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
+        <h1>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/weblogo1.png" alt="NEOSOLUS Logo" title="LOGO" style="height: 40px;" />
+            NEOSOLUS
+            <!-- <span style="color:#ff0000">O</span>S<span style="color:#ff0000">O</span> -->
+          </a>
+        </h1>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
 
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-lg-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                      </li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-                      <li class="nav-item active">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                     
-                      <!-- <li class="nav-item dropdown active">
-                          <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Blog <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="blog.html">Blog posts</a>
-                              <a class="dropdown-item" href="blog-single.html">Blog single post</a>
-                          </div>
-                      </li> -->
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Services <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">Services</a>
-                              <!-- <a class="dropdown-item" href="error.html">404 page</a> -->
-                              <!-- <a class="dropdown-item" href="email.html">Email Page</a> -->
-                              <a class="dropdown-item" href="elements.html">Elements</a>
-                              <!-- <a class="dropdown-item" href="landing-single.html">Landing page</a> -->
-                              <!-- <a class="dropdown-item" href="contact.html">Contact us</a> -->
-                          </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
-                  </ul>
-                  <!--/search-right-->
-                  <!-- <div class="search-right">
-                      <div id="wrap">
-                        <form action="" autocomplete="on">
-                          <input id="search" name="search" type="text" placeholder="Search here..."><input id="search_submit"
-                            value="Rechercher" type="submit">
-                        </form>
-                      </div> -->
-                      <!-- /search popup -->
-                  <!-- </div> -->
-                  <!--//search-right-->
-                  <div class="top-quote mr-lg-3 mt-lg-0 mr-lg-4">
-                      <a href="contact.html" class="btn btn-style btn-white btn-primary">Request a Quote</a>
-                  </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact us <span class="fa fa-angle-down"></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="contact.html">Contact us</a>
+                <a class="dropdown-item" href="quote.html">Req. A Quote</a>
               </div>
-              <!-- toggle switch for light and dark theme -->
-              <div class="mobile-position">
-                  <nav class="navigation">
-                      <div class="theme-switch-wrapper">
-                          <label class="theme-switch" for="checkbox">
-                              <input type="checkbox" id="checkbox">
-                              <div class="mode-container">
-                                  <i class="gg-sun"></i>
-                                  <i class="gg-moon"></i>
-                              </div>
-                          </label>
-                      </div>
-                  </nav>
-              </div>
-              <!-- //toggle switch for light and dark theme -->
-          </nav>
-      </div>
+            </li>
+          </ul>
+          <div class="top-quote mr-lg-3 mt-lg-0 mr-lg-4">
+            <a href="contact.html" class="btn btn-style btn-white btn-primary">Request a Quote</a>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
   <!--//header-->
   <!--/inner-page-->
@@ -123,219 +83,265 @@
     <div class="container py-md-5">
       <div class="text11-content grid-colunm-2">
         <div class="single-left">
-        <!--/services-grids-->
-        <div class="blog-sec">
-          <div class="blog-single-post">
-            <div class="single-post-image mb-4">
-              <img src="assets/images/Doubts.jpg" class="img-fluid w-100 radius-image" alt="blog-post-image">
-            </div>
-            <div class="blog-info card-body blog-details px-lg-0">
-              <h6 class="date">by <span class="fas fa-user mx-1"></span> <a href="#URL" class="mr-3">Admin</a> May 15, 2021.</h6>
-              <a href="#category" class="post">Laptop Rental</a>
-              <a href="#" class="blog-desc">Clearing the Fog: Addressing Common Doubts Startup Founders Face When Considering Laptop Rentals</a>
-            </div>
-            
-            <div class="single-post-content">
-              <p class="mb-4">Debunking Myths and Providing Clarity to Help Startup Founders Make an Informed Decision on Laptop Rentals.
-              </p>
-              <h3 class="post-content-title mb-3">Introduction </h3>
-              <p class="mb-4">
-                As a startup founder, making the right decisions for your business can be a daunting task, especially when it comes to technology investments. Laptop rentals have emerged as an increasingly popular option for startups, offering flexibility, cost savings, and access to the latest technology. However, many founders still have doubts and questions regarding laptop rentals. In this blog, we will address some of the most common concerns, providing you with the clarity needed to make an informed decision for your startup.</p>
-            </div>
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">1. Are laptop rentals really cost-effective?
-              </h4>
-              <p class="mb-4">One of the primary concerns startup founders have is whether laptop rentals are genuinely cost-effective compared to purchasing devices outright. The answer is yes, especially for early-stage startups with limited budgets. Renting laptops allows you to save on upfront costs, freeing up capital for other crucial aspects of your business. Additionally, most rental companies offer flexible rental plans, enabling you to choose the best option for your budget and needs.</p>
-            </div>
+          <!--/services-grids-->
+          <div class="blog-sec">
+            <div class="blog-single-post">
+              <div class="single-post-image mb-4">
+                <img src="assets/images/Doubts.jpg" class="img-fluid w-100 radius-image" alt="blog-post-image">
+              </div>
+              <div class="blog-info card-body blog-details px-lg-0">
+                <h6 class="date">by <span class="fas fa-user mx-1"></span> <a href="#URL" class="mr-3">Admin</a> May 15,
+                  2021.</h6>
+                <a href="#category" class="post">Laptop Rental</a>
+                <a href="#" class="blog-desc">Clearing the Fog: Addressing Common Doubts Startup Founders Face When
+                  Considering Laptop Rentals</a>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">2. Will I have access to the latest technology?
-              </h4>
-              <p class="mb-4">Many startup founders worry about whether renting laptops will provide them with access to the latest technology. With reputable rental companies like Rentl, you can rest assured that you’ll have access to cutting-edge devices. These companies continually update their inventory to ensure that they offer the most advanced laptops, helping you stay ahead of the competition and empowering your team to work efficiently and effectively.</p>
-            </div>
+              <div class="single-post-content">
+                <p class="mb-4">Debunking Myths and Providing Clarity to Help Startup Founders Make an Informed Decision
+                  on Laptop Rentals.
+                </p>
+                <h3 class="post-content-title mb-3">Introduction </h3>
+                <p class="mb-4">
+                  As a startup founder, making the right decisions for your business can be a daunting task, especially
+                  when it comes to technology investments. Laptop rentals have emerged as an increasingly popular option
+                  for startups, offering flexibility, cost savings, and access to the latest technology. However, many
+                  founders still have doubts and questions regarding laptop rentals. In this blog, we will address some
+                  of the most common concerns, providing you with the clarity needed to make an informed decision for
+                  your startup.</p>
+              </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">1. Are laptop rentals really cost-effective?
+                </h4>
+                <p class="mb-4">One of the primary concerns startup founders have is whether laptop rentals are
+                  genuinely cost-effective compared to purchasing devices outright. The answer is yes, especially for
+                  early-stage startups with limited budgets. Renting laptops allows you to save on upfront costs,
+                  freeing up capital for other crucial aspects of your business. Additionally, most rental companies
+                  offer flexible rental plans, enabling you to choose the best option for your budget and needs.</p>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">3. What about maintenance and support?
-              </h4>
-              <p class="mb-4">Another common concern for startup founders is the maintenance and support of rented laptops. The good news is that most laptop rental companies offer comprehensive maintenance and support services as part of their rental plans. This means that you can rely on the rental company to handle any technical issues, repairs, or replacements, allowing you to focus on growing your business. Additionally, having access to expert support can save you time and resources that would otherwise be spent on troubleshooting and resolving problems in-house.</p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">2. Will I have access to the latest technology?
+                </h4>
+                <p class="mb-4">Many startup founders worry about whether renting laptops will provide them with access
+                  to the latest technology. With reputable rental companies like Rentl, you can rest assured that you’ll
+                  have access to cutting-edge devices. These companies continually update their inventory to ensure that
+                  they offer the most advanced laptops, helping you stay ahead of the competition and empowering your
+                  team to work efficiently and effectively.</p>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">4. Is renting laptops a secure option for my startup?
-              </h4>
-              <p class="mb-4">Security is a top priority for startups, and many founders wonder whether renting laptops could pose a risk to their sensitive data. Reputable rental companies understand the importance of security and take necessary measures to ensure the protection of your data. This may include providing laptops with pre-installed security software, encryption, and secure erasure of data upon return. When choosing a laptop rental company, make sure to inquire about their security protocols and select a partner that prioritizes the protection of your data.</p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">3. What about maintenance and support?
+                </h4>
+                <p class="mb-4">Another common concern for startup founders is the maintenance and support of rented
+                  laptops. The good news is that most laptop rental companies offer comprehensive maintenance and
+                  support services as part of their rental plans. This means that you can rely on the rental company to
+                  handle any technical issues, repairs, or replacements, allowing you to focus on growing your business.
+                  Additionally, having access to expert support can save you time and resources that would otherwise be
+                  spent on troubleshooting and resolving problems in-house.</p>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">5. How flexible is the laptop rental process?
-              </h4>
-              <p class="mb-4">Startup founders often question the flexibility of laptop rentals, particularly regarding the ability to scale their technology needs as the business grows. Laptop rental companies like Rentl offer scalable solutions that allow you to easily adjust the number of devices you rent based on your current team size and requirements. This flexibility means that you can quickly adapt to changes in your business without worrying about purchasing additional devices or disposing of surplus equipment.</p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">4. Is renting laptops a secure option for my startup?
+                </h4>
+                <p class="mb-4">Security is a top priority for startups, and many founders wonder whether renting
+                  laptops could pose a risk to their sensitive data. Reputable rental companies understand the
+                  importance of security and take necessary measures to ensure the protection of your data. This may
+                  include providing laptops with pre-installed security software, encryption, and secure erasure of data
+                  upon return. When choosing a laptop rental company, make sure to inquire about their security
+                  protocols and select a partner that prioritizes the protection of your data.</p>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">6. Can I customize rented laptops to meet my startup’s specific needs?
-              </h4>
-              <p class="mb-4">Customization is essential for startups, as each business has unique requirements and preferences. Many founders are concerned about whether rented laptops can be customized to meet their startup’s specific needs. The answer is yes; reputable laptop rental companies offer customization options, such as pre-installed software, hardware upgrades, and device configuration, ensuring that the laptops you rent are tailored to your startup’s requirements.</p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">5. How flexible is the laptop rental process?
+                </h4>
+                <p class="mb-4">Startup founders often question the flexibility of laptop rentals, particularly
+                  regarding the ability to scale their technology needs as the business grows. Laptop rental companies
+                  like Rentl offer scalable solutions that allow you to easily adjust the number of devices you rent
+                  based on your current team size and requirements. This flexibility means that you can quickly adapt to
+                  changes in your business without worrying about purchasing additional devices or disposing of surplus
+                  equipment.</p>
+              </div>
 
-            <div class="single-post-content my-md-5 mt-5 mb-3">
-              <h4 class="post-content-title mb-3">7. What if I need to rent laptops for an extended period?
-              </h4>
-              <p class="mb-4">Some startup founders may worry about the rental duration and whether they can rent laptops for an extended period. Most laptop rental companies offer flexible rental terms, allowing you to rent devices for short-term projects or long-term needs. Whether you need laptops for a few weeks, months, or even years, rental companies can accommodate your requirements, ensuring that you have the technology you need for as long as you need it.</p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">6. Can I customize rented laptops to meet my startup’s specific
+                  needs?
+                </h4>
+                <p class="mb-4">Customization is essential for startups, as each business has unique requirements and
+                  preferences. Many founders are concerned about whether rented laptops can be customized to meet their
+                  startup’s specific needs. The answer is yes; reputable laptop rental companies offer customization
+                  options, such as pre-installed software, hardware upgrades, and device configuration, ensuring that
+                  the laptops you rent are tailored to your startup’s requirements.</p>
+              </div>
 
-            <div class="single-post-content">
-              <h3 class="post-content-title mb-3">Conclusion </h3>
-              <p class="mb-4">
-                <br> Laptop rentals offer numerous advantages for startups, from cost savings and flexibility to access to the latest technology and hassle-free maintenance. By addressing the common doubts and concerns faced by startup founders, we hope to provide you with the clarity needed to make an informed decision about whether laptop rentals are the right choice for your business.
-              <br><br>Remember to choose a reputable laptop rental company like Rentl that prioritizes customer satisfaction, security, and flexibility, ensuring that you have the best possible experience while renting laptops for your startup. With the right rental partner, you can focus on what truly matters: building and growing your business while leaving the technology management to the experts.
-              </p>
-            </div>
+              <div class="single-post-content my-md-5 mt-5 mb-3">
+                <h4 class="post-content-title mb-3">7. What if I need to rent laptops for an extended period?
+                </h4>
+                <p class="mb-4">Some startup founders may worry about the rental duration and whether they can rent
+                  laptops for an extended period. Most laptop rental companies offer flexible rental terms, allowing you
+                  to rent devices for short-term projects or long-term needs. Whether you need laptops for a few weeks,
+                  months, or even years, rental companies can accommodate your requirements, ensuring that you have the
+                  technology you need for as long as you need it.</p>
+              </div>
 
+              <div class="single-post-content">
+                <h3 class="post-content-title mb-3">Conclusion </h3>
+                <p class="mb-4">
+                  <br> Laptop rentals offer numerous advantages for startups, from cost savings and flexibility to
+                  access to the latest technology and hassle-free maintenance. By addressing the common doubts and
+                  concerns faced by startup founders, we hope to provide you with the clarity needed to make an informed
+                  decision about whether laptop rentals are the right choice for your business.
+                  <br><br>Remember to choose a reputable laptop rental company like Rentl that prioritizes customer
+                  satisfaction, security, and flexibility, ensuring that you have the best possible experience while
+                  renting laptops for your startup. With the right rental partner, you can focus on what truly matters:
+                  building and growing your business while leaving the technology management to the experts.
+                </p>
+              </div>
+
+            </div>
           </div>
         </div>
-      </div>
-      <!-- right side bar -->
-      <div class="right-side-bar mt-lg-0 mt-5">
-       
-        <aside class="posts">
-          <h3 class="aside-title">All Categories</h3>
-          <ul class="category">
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Production <label> (11)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Industrial <label>(24)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Mechanical Works <label>(18)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Construction <label>(08)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Power & Energy
+        <!-- right side bar -->
+        <div class="right-side-bar mt-lg-0 mt-5">
 
-                <label>(38)</label></a></li>
-          </ul>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Recent Posts</h3>
-          <div class="posts-grids">
-            <div class="posts-grid-inner">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
-                </a>
+          <aside class="posts">
+            <h3 class="aside-title">All Categories</h3>
+            <ul class="category">
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Production <label> (11)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Industrial <label>(24)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Mechanical Works <label>(18)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Construction <label>(08)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Power & Energy
+
+                  <label>(38)</label></a></li>
+            </ul>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Recent Posts</h3>
+            <div class="posts-grids">
+              <div class="posts-grid-inner">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 11 Minutes ago</span>
+                </div>
               </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 11 Minutes ago</span>
+              <div class="posts-grid-inner my-4">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 15 Minutes ago</span>
+                </div>
+              </div>
+              <div class="posts-grid-inner">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/1.jpg" alt=" " class="img-fluid img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 11 Minutes ago </span>
+                </div>
               </div>
             </div>
-            <div class="posts-grid-inner my-4">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
-                </a>
-              </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 15 Minutes ago</span>
-              </div>
-            </div>
-            <div class="posts-grid-inner">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/1.jpg" alt=" " class="img-fluid img-fluid radius-image">
-                </a>
-              </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 11 Minutes ago </span>
-              </div>
-            </div>
-          </div>
-        </aside>
+          </aside>
 
-        <aside class="posts">
-          <h3 class="aside-title">Instagram Posts</h3>
-          <div class="row posts-grid">
-            <a href="#insta" class="col-4">
-              <img src="assets/images/1.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4">
-              <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4">
-              <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/4.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/5.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/6.jpg" alt=" " class="img-fluid radius-image">
-            </a>
+          <aside class="posts">
+            <h3 class="aside-title">Instagram Posts</h3>
+            <div class="row posts-grid">
+              <a href="#insta" class="col-4">
+                <img src="assets/images/1.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4">
+                <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4">
+                <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/4.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/5.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/6.jpg" alt=" " class="img-fluid radius-image">
+              </a>
 
-          </div>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Popular Tags</h3>
-          <ul class="tags-list">
-            <li><a href="#tag"> Audit</a></li>
-            <li><a href="#tag"> Business</a></li>
-            <li><a href="#tag"> News</a></li>
-            <li><a href="#tag"> Consulting</a></li>
-            <li><a href="#tag"> Finance</a></li>
-            <li><a href="#tag"> Invest</a></li>
-            <li><a href="#tag"> Profit</a></li>
-          </ul>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Advertisement</h3>
-          <a href="blog-single.html">
-            <img src="assets/images/ab2.jpg" alt=" " class="img-fluid radius-image">
-          </a>
-        </aside>
-      </div>
-      <!-- //right side bar -->
+            </div>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Popular Tags</h3>
+            <ul class="tags-list">
+              <li><a href="#tag"> Audit</a></li>
+              <li><a href="#tag"> Business</a></li>
+              <li><a href="#tag"> News</a></li>
+              <li><a href="#tag"> Consulting</a></li>
+              <li><a href="#tag"> Finance</a></li>
+              <li><a href="#tag"> Invest</a></li>
+              <li><a href="#tag"> Profit</a></li>
+            </ul>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Advertisement</h3>
+            <a href="blog-single.html">
+              <img src="assets/images/ab2.jpg" alt=" " class="img-fluid radius-image">
+            </a>
+          </aside>
+        </div>
+        <!-- //right side bar -->
       </div>
     </div>
-  </section>  
+  </section>
   <!--//Blog-Single-->
 
-<!-- footer17 -->
-<footer class="footer-17">
-  <div class="footer17_sur py-5">
-    <div class="container py-lg-5 py-md-4">
-      <div class="row footer17-top">
-        <div class="col-lg-4 footer17-top-left2_sur pr-lg-5">
-          <h6>About Us</h6>
-          <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
-            quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
-          <a href="#get" class="btn btn-style btn-primary mt-lg-5 mt-4">Contact Us</a>
-        </div>
-        <div class="col-lg-4 footer17-top-left1_sur mt-lg-0 my-5">
-          <h6>Quick Links</h6>
-          <div class="footer-listw3-grids">
-            <ul class="footer-listw3">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="blog.html">Blogs</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-            <ul class="footer-listw3">
-              <li><a href="#privacy">Privacy Policy</a></li>
-              <li><a href="#term">Terms of use</a></li>
-              <li><a href="#sales">Sales and Refunds</a></li>
-              <li><a href="#faq">FAQ</a></li>
-            </ul>
+  <!-- footer17 -->
+  <footer class="footer-17">
+    <div class="footer17_sur py-5">
+      <div class="container py-lg-5 py-md-4">
+        <div class="row footer17-top">
+          <div class="col-lg-4 footer17-top-left2_sur pr-lg-5">
+            <h6>About Us</h6>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
+              quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+            <a href="#get" class="btn btn-style btn-primary mt-lg-5 mt-4">Contact Us</a>
           </div>
-        </div>
-        <div class="col-lg-4 footer17-top-left4_sur footerw3-instagram pl-lg-5 ">
-          <h6>Social Media</h6>
-          <!-- <div class="row">
+          <div class="col-lg-4 footer17-top-left1_sur mt-lg-0 my-5">
+            <h6>Quick Links</h6>
+            <div class="footer-listw3-grids">
+              <ul class="footer-listw3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+              </ul>
+              <ul class="footer-listw3">
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#term">Terms of use</a></li>
+                <li><a href="#sales">Sales and Refunds</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 footer17-top-left4_sur footerw3-instagram pl-lg-5 ">
+            <h6>Social Media</h6>
+            <!-- <div class="row">
             <div class="col-4 img-gd-f">
               <a href="#"> <img src="assets/images/1.jpg" alt="" class="radius-image img-fluid"></a>
             </div>
@@ -355,56 +361,60 @@
               <a href="#"> <img src="assets/images/1.jpg" alt="" class="radius-image img-fluid"></a>
             </div>
           </div> -->
-          <ul class="footers-17_social mt-lg-5 mt-4">
-            <li><a href="#url" class="twitter"><span class="fab fa-twitter"></span></a></li>
-            <li><a href="#url" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="#url" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
-            <li><a href="#url" class="instagram"><span class="fab fa-instagram"></span></a></li>
-          </ul>
+            <ul class="footers-17_social mt-lg-5 mt-4">
+              <li><a href="#url" class="twitter"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#url" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="#url" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
+              <li><a href="#url" class="instagram"><span class="fab fa-instagram"></span></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="copyright text-center">
-      <div class="container">
+      <div class="copyright text-center">
         <div class="container">
-          <p class="copy-footer-29">© 2024 NEOSOLUS. All rights reserved.</p>
+          <div class="container">
+            <p class="copy-footer-29">© 2024 NEOSOLUS. All rights reserved.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      <i class="fas fa-long-arrow-alt-up"></i>
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
+      <!-- move top -->
+      <button onclick="topFunction()" id="movetop" title="Go to top">
+        <i class="fas fa-long-arrow-alt-up"></i>
+      </button>
+      <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function ()
+        {
+          scrollFunction()
+        };
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
+        function scrollFunction()
+        {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+          } else {
+            document.getElementById("movetop").style.display = "none";
+          }
         }
-      }
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
-  </div>
-</footer>
-<!-- //footer17 -->
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction()
+        {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <!-- /move top -->
+    </div>
+  </footer>
+  <!-- //footer17 -->
   <!-- Template JavaScript -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
   <!--/MENU-JS-->
   <script>
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function ()
+    {
       var scroll = $(window).scrollTop();
 
       if (scroll >= 80) {
@@ -415,14 +425,17 @@
     });
 
     //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
+    $(".navbar-toggler").on("click", function ()
+    {
       $("header").toggleClass("active");
     });
-    $(document).on("ready", function () {
+    $(document).on("ready", function ()
+    {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
       }
-      $(window).on("resize", function () {
+      $(window).on("resize", function ()
+      {
         if ($(window).width() > 991) {
           $("header").removeClass("active");
         }

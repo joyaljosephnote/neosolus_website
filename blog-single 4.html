@@ -13,97 +13,57 @@
 </head>
 
 <body>
-    <!--header-->
-    <header id="site-header" class="fixed-top">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
-            <h1> <a style="color: red;" class="navbar-brand" href="index.html"> 
-              NEOSOLUS
-            </a></h1>
-              <!-- if logo is image enable this   
-  <a class="navbar-brand" href="#index.html">
-      <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-  </a> -->
-              <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                  data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                  <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </button>
+  <!--header-->
+  <header id="site-header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
+        <h1>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/weblogo1.png" alt="NEOSOLUS Logo" title="LOGO" style="height: 40px;" />
+            NEOSOLUS
+            <!-- <span style="color:#ff0000">O</span>S<span style="color:#ff0000">O</span> -->
+          </a>
+        </h1>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
 
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-lg-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="index.html">Home</a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                      </li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-                      <li class="nav-item active">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                     
-                      <!-- <li class="nav-item dropdown active">
-                          <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Blog <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="blog.html">Blog posts</a>
-                              <a class="dropdown-item" href="blog-single.html">Blog single post</a>
-                          </div>
-                      </li> -->
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Services <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">Services</a>
-                              <!-- <a class="dropdown-item" href="error.html">404 page</a> -->
-                              <!-- <a class="dropdown-item" href="email.html">Email Page</a> -->
-                              <a class="dropdown-item" href="elements.html">Elements</a>
-                              <!-- <a class="dropdown-item" href="landing-single.html">Landing page</a> -->
-                              <!-- <a class="dropdown-item" href="contact.html">Contact us</a> -->
-                          </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
-                  </ul>
-                  <!--/search-right-->
-                  <!-- <div class="search-right">
-                      <div id="wrap">
-                        <form action="" autocomplete="on">
-                          <input id="search" name="search" type="text" placeholder="Search here..."><input id="search_submit"
-                            value="Rechercher" type="submit">
-                        </form>
-                      </div> -->
-                      <!-- /search popup -->
-                  <!-- </div> -->
-                  <!--//search-right-->
-                  <div class="top-quote mr-lg-3 mt-lg-0 mr-lg-4">
-                      <a href="contact.html" class="btn btn-style btn-white btn-primary">Request a Quote</a>
-                  </div>
+            <li class="nav-item active">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact us <span class="fa fa-angle-down"></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="contact.html">Contact us</a>
+                <a class="dropdown-item" href="quote.html">Req. A Quote</a>
               </div>
-              <!-- toggle switch for light and dark theme -->
-              <div class="mobile-position">
-                  <nav class="navigation">
-                      <div class="theme-switch-wrapper">
-                          <label class="theme-switch" for="checkbox">
-                              <input type="checkbox" id="checkbox">
-                              <div class="mode-container">
-                                  <i class="gg-sun"></i>
-                                  <i class="gg-moon"></i>
-                              </div>
-                          </label>
-                      </div>
-                  </nav>
-              </div>
-              <!-- //toggle switch for light and dark theme -->
-          </nav>
-      </div>
+            </li>
+          </ul>
+          <div class="top-quote mr-lg-3 mt-lg-0 mr-lg-4">
+            <a href="contact.html" class="btn btn-style btn-white btn-primary">Request a Quote</a>
+          </div>
+        </div>
+      </nav>
+    </div>
   </header>
   <!--//header-->
   <!--/inner-page-->
@@ -123,212 +83,229 @@
     <div class="container py-md-5">
       <div class="text11-content grid-colunm-2">
         <div class="single-left">
-        <!--/services-grids-->
-        <div class="blog-sec">
-          <div class="blog-single-post">
-            <div class="single-post-image mb-4">
-              <img src="assets/images/10 ideas.jpg" class="img-fluid w-100 radius-image" alt="blog-post-image">
+          <!--/services-grids-->
+          <div class="blog-sec">
+            <div class="blog-single-post">
+              <div class="single-post-image mb-4">
+                <img src="assets/images/10 ideas.jpg" class="img-fluid w-100 radius-image" alt="blog-post-image">
+              </div>
+              <div class="blog-info card-body blog-details px-lg-0">
+                <h6 class="date">by <span class="fas fa-user mx-1"></span> <a href="#URL" class="mr-3">Admin</a> May 15,
+                  2021.</h6>
+                <a href="#category" class="post">Laptop Rental</a>
+                <a href="#" class="blog-desc">Top 10 Reasons Why Equipment Rental is Better Than Buying</a>
+              </div>
+
+              <div class="single-post-content">
+                <p class="mb-4">When it comes to IT equipment marketing, renting vs. buying is one of the most regularly
+                  discussed issues.
+                </p>
+                <p class="mb-4">You have to decide between whether to rent a laptop for business or buy one.
+                </p>
+                <p class="mb-4">Don't worry if you are stuck with this question. Below we've listed the main reasons why
+                  renting might be your best choice.
+                </p>
+                <h3 class="post-content-title mb-3">Top 10 Factors for Why Renting Is a Better Solution:-</h3>
+                <h5 class="post-content-title mb-3">1. Save capital</h5>
+                <p class="mb-4">
+                  It enables you to make financial savings for the long term which is the biggest advantage of choosing
+                  to rent an equipment over buying the same.</p>
+
+                <h5 class="post-content-title mb-3">2. Select from a Vast Selection</h5>
+                <p class="mb-4">
+                  When you rent, you have access to a wide range of assembled and branded equipment to choose from.</p>
+
+                <h5 class="post-content-title mb-3">3. Reduce the time spent looking for equipment</h5>
+                <p class="mb-4">
+                  Renting equipment is a terrific method to save time and effort while looking for the right piece of
+                  gear while also saving money.</p>
+
+                <h5 class="post-content-title mb-3">4. Renting is customizable and inexpensive</h5>
+                <p class="mb-4">
+                  When a piece of equipment is needed temporarily, many individuals prefer to rent it rather than buy it
+                  because renting is significantly less expensive.</p>
+
+                <h5 class="post-content-title mb-3">5. You can exchange your current rental for a more recent design
+                </h5>
+                <p class="mb-4">
+                  In order to upgrade your equipment while maintaining your reasonable prices, you can trade it in at
+                  the company you rent from.</p>
+
+                <h5 class="post-content-title mb-3">6. It provides flexible payment options</h5>
+                <p class="mb-4">
+                  You can locate rental programmes that are inexpensive, work with any budget, and let you pay for your
+                  rentals over time.</p>
+
+                <h5 class="post-content-title mb-3">7. You can get all equipment in one place</h5>
+                <p class="mb-4">
+                  Be it a laptop, desktop, or printer, you can get them all from the same place when you rent.
+                  Businesses can now access a variety of resources fast without worrying about additional fees or
+                  locations.</p>
+
+                <h5 class="post-content-title mb-3">8. You have the option of short-term rentals</h5>
+                <p class="mb-4">
+                  Renting equipment might be incredibly cost-effective if you just require it for a little time. For
+                  example, if you need a desktop, you can get a branded desktop on rent and when you're done, you can
+                  return it.</p>
+
+                <h5 class="post-content-title mb-3">9. It's an excellent choice for emergencies</h5>
+                <p class="mb-4">
+                  When you need equipment in an emergency, renting it is a fantastic alternative. Rent the tools you
+                  need to complete the task properly, whether you need to make an urgent home repair or are in the
+                  middle of a project that must be finished quickly.</p>
+
+                <h5 class="post-content-title mb-3">10. You can get professional guidance</h5>
+                <p class="mb-4">
+                  When you rent something, you won't have to worry about figuring out how to use it because rental firms
+                  frequently offer professional guidance on the best ways to meet your unique needs. Renting enables you
+                  to have a more personalized experience, which can be advantageous to you in a number of ways.</p>
+              </div>
+
+
             </div>
-            <div class="blog-info card-body blog-details px-lg-0">
-              <h6 class="date">by <span class="fas fa-user mx-1"></span> <a href="#URL" class="mr-3">Admin</a> May 15, 2021.</h6>
-              <a href="#category" class="post">Laptop Rental</a>
-              <a href="#" class="blog-desc">Top 10 Reasons Why Equipment Rental is Better Than Buying</a>
-            </div>
-            
-            <div class="single-post-content">
-              <p class="mb-4">When it comes to IT equipment marketing, renting vs. buying is one of the most regularly discussed issues.
-              </p>
-              <p class="mb-4">You have to decide between whether to rent a laptop for business or buy one.
-              </p>
-              <p class="mb-4">Don't worry if you are stuck with this question. Below we've listed the main reasons why renting might be your best choice.
-              </p>
-              <h3 class="post-content-title mb-3">Top 10 Factors for Why Renting Is a Better Solution:-</h3>
-              <h5 class="post-content-title mb-3">1. Save capital</h5>
-              <p class="mb-4">
-                It enables you to make financial savings for the long term which is the biggest advantage of choosing to rent an equipment over buying the same.</p>
-
-              <h5 class="post-content-title mb-3">2. Select from a Vast Selection</h5>
-              <p class="mb-4">
-                When you rent, you have access to a wide range of assembled and branded equipment to choose from.</p>
-
-              <h5 class="post-content-title mb-3">3. Reduce the time spent looking for equipment</h5>
-              <p class="mb-4">
-                Renting equipment is a terrific method to save time and effort while looking for the right piece of gear while also saving money.</p>
-
-              <h5 class="post-content-title mb-3">4. Renting is customizable and inexpensive</h5>
-              <p class="mb-4">
-                When a piece of equipment is needed temporarily, many individuals prefer to rent it rather than buy it because renting is significantly less expensive.</p>
-
-              <h5 class="post-content-title mb-3">5. You can exchange your current rental for a more recent design</h5>
-              <p class="mb-4">
-                In order to upgrade your equipment while maintaining your reasonable prices, you can trade it in at the company you rent from.</p>
-
-              <h5 class="post-content-title mb-3">6. It provides flexible payment options</h5>
-              <p class="mb-4">
-                You can locate rental programmes that are inexpensive, work with any budget, and let you pay for your rentals over time.</p>
-
-              <h5 class="post-content-title mb-3">7. You can get all equipment in one place</h5>
-              <p class="mb-4">
-                Be it a laptop, desktop, or printer, you can get them all from the same place when you rent. Businesses can now access a variety of resources fast without worrying about additional fees or locations.</p>
-
-              <h5 class="post-content-title mb-3">8. You have the option of short-term rentals</h5>
-              <p class="mb-4">
-                Renting equipment might be incredibly cost-effective if you just require it for a little time. For example, if you need a desktop, you can get a branded desktop on rent and when you're done, you can return it.</p>
-
-              <h5 class="post-content-title mb-3">9. It's an excellent choice for emergencies</h5>
-              <p class="mb-4">
-                When you need equipment in an emergency, renting it is a fantastic alternative. Rent the tools you need to complete the task properly, whether you need to make an urgent home repair or are in the middle of a project that must be finished quickly.</p>
-                
-              <h5 class="post-content-title mb-3">10. You can get professional guidance</h5>
-              <p class="mb-4">
-                When you rent something, you won't have to worry about figuring out how to use it because rental firms frequently offer professional guidance on the best ways to meet your unique needs. Renting enables you to have a more personalized experience, which can be advantageous to you in a number of ways.</p>
-            </div>
-           
-            
           </div>
         </div>
-      </div>
-      <!-- right side bar -->
-      <div class="right-side-bar mt-lg-0 mt-5">
-       
-        <aside class="posts">
-          <h3 class="aside-title">All Categories</h3>
-          <ul class="category">
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Production <label> (11)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Industrial <label>(24)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Mechanical Works <label>(18)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Construction <label>(08)</label></a></li>
-            <li><a href="#link"><span class="fas fa-angle-right"></span>Power & Energy
+        <!-- right side bar -->
+        <div class="right-side-bar mt-lg-0 mt-5">
 
-                <label>(38)</label></a></li>
-          </ul>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Recent Posts</h3>
-          <div class="posts-grids">
-            <div class="posts-grid-inner">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
-                </a>
+          <aside class="posts">
+            <h3 class="aside-title">All Categories</h3>
+            <ul class="category">
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Production <label> (11)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Industrial <label>(24)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Mechanical Works <label>(18)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Construction <label>(08)</label></a></li>
+              <li><a href="#link"><span class="fas fa-angle-right"></span>Power & Energy
+
+                  <label>(38)</label></a></li>
+            </ul>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Recent Posts</h3>
+            <div class="posts-grids">
+              <div class="posts-grid-inner">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 11 Minutes ago</span>
+                </div>
               </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 11 Minutes ago</span>
+              <div class="posts-grid-inner my-4">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 15 Minutes ago</span>
+                </div>
+              </div>
+              <div class="posts-grid-inner">
+                <div class="posts-grid-left pr-0">
+                  <a href="blog-single.html">
+                    <img src="assets/images/1.jpg" alt=" " class="img-fluid img-fluid radius-image">
+                  </a>
+                </div>
+                <div class="posts-grid-right">
+                  <h4>
+                    <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
+                  </h4>
+                  <span class="price"> 11 Minutes ago </span>
+                </div>
               </div>
             </div>
-            <div class="posts-grid-inner my-4">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
-                </a>
-              </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 15 Minutes ago</span>
-              </div>
-            </div>
-            <div class="posts-grid-inner">
-              <div class="posts-grid-left pr-0">
-                <a href="blog-single.html">
-                  <img src="assets/images/1.jpg" alt=" " class="img-fluid img-fluid radius-image">
-                </a>
-              </div>
-              <div class="posts-grid-right">
-                <h4>
-                  <a href="blog-single.html" class="text-bl">Integer sit amet mattis quam.</a>
-                </h4>
-                <span class="price"> 11 Minutes ago </span>
-              </div>
-            </div>
-          </div>
-        </aside>
+          </aside>
 
-        <aside class="posts">
-          <h3 class="aside-title">Instagram Posts</h3>
-          <div class="row posts-grid">
-            <a href="#insta" class="col-4">
-              <img src="assets/images/1.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4">
-              <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4">
-              <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/4.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/5.jpg" alt=" " class="img-fluid radius-image">
-            </a>
-            <a href="#insta" class="col-4 mt-3">
-              <img src="assets/images/6.jpg" alt=" " class="img-fluid radius-image">
-            </a>
+          <aside class="posts">
+            <h3 class="aside-title">Instagram Posts</h3>
+            <div class="row posts-grid">
+              <a href="#insta" class="col-4">
+                <img src="assets/images/1.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4">
+                <img src="assets/images/2.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4">
+                <img src="assets/images/3.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/4.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/5.jpg" alt=" " class="img-fluid radius-image">
+              </a>
+              <a href="#insta" class="col-4 mt-3">
+                <img src="assets/images/6.jpg" alt=" " class="img-fluid radius-image">
+              </a>
 
-          </div>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Popular Tags</h3>
-          <ul class="tags-list">
-            <li><a href="#tag"> Audit</a></li>
-            <li><a href="#tag"> Business</a></li>
-            <li><a href="#tag"> News</a></li>
-            <li><a href="#tag"> Consulting</a></li>
-            <li><a href="#tag"> Finance</a></li>
-            <li><a href="#tag"> Invest</a></li>
-            <li><a href="#tag"> Profit</a></li>
-          </ul>
-        </aside>
-        <aside class="posts">
-          <h3 class="aside-title">Advertisement</h3>
-          <a href="blog-single.html">
-            <img src="assets/images/ab2.jpg" alt=" " class="img-fluid radius-image">
-          </a>
-        </aside>
-      </div>
-      <!-- //right side bar -->
+            </div>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Popular Tags</h3>
+            <ul class="tags-list">
+              <li><a href="#tag"> Audit</a></li>
+              <li><a href="#tag"> Business</a></li>
+              <li><a href="#tag"> News</a></li>
+              <li><a href="#tag"> Consulting</a></li>
+              <li><a href="#tag"> Finance</a></li>
+              <li><a href="#tag"> Invest</a></li>
+              <li><a href="#tag"> Profit</a></li>
+            </ul>
+          </aside>
+          <aside class="posts">
+            <h3 class="aside-title">Advertisement</h3>
+            <a href="blog-single.html">
+              <img src="assets/images/ab2.jpg" alt=" " class="img-fluid radius-image">
+            </a>
+          </aside>
+        </div>
+        <!-- //right side bar -->
       </div>
     </div>
   </section>
   <!--//Blog-Single-->
 
-<!-- footer17 -->
-<footer class="footer-17">
-  <div class="footer17_sur py-5">
-    <div class="container py-lg-5 py-md-4">
-      <div class="row footer17-top">
-        <div class="col-lg-4 footer17-top-left2_sur pr-lg-5">
-          <h6>About Us</h6>
-          <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
-            quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
-          <a href="#get" class="btn btn-style btn-primary mt-lg-5 mt-4">Contact Us</a>
-        </div>
-        <div class="col-lg-4 footer17-top-left1_sur mt-lg-0 my-5">
-          <h6>Quick Links</h6>
-          <div class="footer-listw3-grids">
-            <ul class="footer-listw3">
-              <li><a href="index.html">Home</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="blog.html">Blogs</a></li>
-              <li><a href="contact.html">Contact</a></li>
-
-            </ul>
-            <ul class="footer-listw3">
-              <li><a href="#privacy">Privacy Policy</a></li>
-              <li><a href="#term">Terms of use</a></li>
-              <li><a href="#sales">Sales and Refunds</a></li>
-              <li><a href="#faq">FAQ</a></li>
-            </ul>
+  <!-- footer17 -->
+  <footer class="footer-17">
+    <div class="footer17_sur py-5">
+      <div class="container py-lg-5 py-md-4">
+        <div class="row footer17-top">
+          <div class="col-lg-4 footer17-top-left2_sur pr-lg-5">
+            <h6>About Us</h6>
+            <p>Vestibulum ante ipsum primis in faucibus orci luctus turpis sodales quis. Integer sit amet mattis
+              quam.Vivamus a ligula quam tesque et libero ut justo ultrices in.</p>
+            <a href="#get" class="btn btn-style btn-primary mt-lg-5 mt-4">Contact Us</a>
           </div>
-        </div>
-        <div class="col-lg-4 footer17-top-left4_sur footerw3-instagram pl-lg-5 ">
-          <h6>Social Media</h6>
-          <!-- <div class="row">
+          <div class="col-lg-4 footer17-top-left1_sur mt-lg-0 my-5">
+            <h6>Quick Links</h6>
+            <div class="footer-listw3-grids">
+              <ul class="footer-listw3">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="blog.html">Blogs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+
+              </ul>
+              <ul class="footer-listw3">
+                <li><a href="#privacy">Privacy Policy</a></li>
+                <li><a href="#term">Terms of use</a></li>
+                <li><a href="#sales">Sales and Refunds</a></li>
+                <li><a href="#faq">FAQ</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-4 footer17-top-left4_sur footerw3-instagram pl-lg-5 ">
+            <h6>Social Media</h6>
+            <!-- <div class="row">
             <div class="col-4 img-gd-f">
               <a href="#"> <img src="assets/images/1.jpg" alt="" class="radius-image img-fluid"></a>
             </div>
@@ -348,56 +325,60 @@
               <a href="#"> <img src="assets/images/1.jpg" alt="" class="radius-image img-fluid"></a>
             </div>
           </div> -->
-          <ul class="footers-17_social mt-lg-5 mt-4">
-            <li><a href="#url" class="twitter"><span class="fab fa-twitter"></span></a></li>
-            <li><a href="#url" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
-            <li><a href="#url" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
-            <li><a href="#url" class="instagram"><span class="fab fa-instagram"></span></a></li>
-          </ul>
+            <ul class="footers-17_social mt-lg-5 mt-4">
+              <li><a href="#url" class="twitter"><span class="fab fa-twitter"></span></a></li>
+              <li><a href="#url" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="#url" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
+              <li><a href="#url" class="instagram"><span class="fab fa-instagram"></span></a></li>
+            </ul>
+          </div>
         </div>
       </div>
-    </div>
-    <div class="copyright text-center">
-      <div class="container">
+      <div class="copyright text-center">
         <div class="container">
-          <p class="copy-footer-29">© 2024 NEOSOLUS. All rights reserved.</p>
+          <div class="container">
+            <p class="copy-footer-29">© 2024 NEOSOLUS. All rights reserved.</p>
+          </div>
         </div>
       </div>
-    </div>
-    <!-- move top -->
-    <button onclick="topFunction()" id="movetop" title="Go to top">
-      <i class="fas fa-long-arrow-alt-up"></i>
-    </button>
-    <script>
-      // When the user scrolls down 20px from the top of the document, show the button
-      window.onscroll = function () {
-        scrollFunction()
-      };
+      <!-- move top -->
+      <button onclick="topFunction()" id="movetop" title="Go to top">
+        <i class="fas fa-long-arrow-alt-up"></i>
+      </button>
+      <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function ()
+        {
+          scrollFunction()
+        };
 
-      function scrollFunction() {
-        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-          document.getElementById("movetop").style.display = "block";
-        } else {
-          document.getElementById("movetop").style.display = "none";
+        function scrollFunction()
+        {
+          if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("movetop").style.display = "block";
+          } else {
+            document.getElementById("movetop").style.display = "none";
+          }
         }
-      }
 
-      // When the user clicks on the button, scroll to the top of the document
-      function topFunction() {
-        document.body.scrollTop = 0;
-        document.documentElement.scrollTop = 0;
-      }
-    </script>
-    <!-- /move top -->
-  </div>
-</footer>
-<!-- //footer17 -->
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction()
+        {
+          document.body.scrollTop = 0;
+          document.documentElement.scrollTop = 0;
+        }
+      </script>
+      <!-- /move top -->
+    </div>
+  </footer>
+  <!-- //footer17 -->
   <!-- Template JavaScript -->
   <script src="assets/js/jquery-3.3.1.min.js"></script>
   <script src="assets/js/theme-change.js"></script>
   <!--/MENU-JS-->
   <script>
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function ()
+    {
       var scroll = $(window).scrollTop();
 
       if (scroll >= 80) {
@@ -408,14 +389,17 @@
     });
 
     //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
+    $(".navbar-toggler").on("click", function ()
+    {
       $("header").toggleClass("active");
     });
-    $(document).on("ready", function () {
+    $(document).on("ready", function ()
+    {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
       }
-      $(window).on("resize", function () {
+      $(window).on("resize", function ()
+      {
         if ($(window).width() > 991) {
           $("header").removeClass("active");
         }

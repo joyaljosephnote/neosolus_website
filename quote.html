@@ -13,97 +13,55 @@
 </head>
 
 <body>
-    <!--header-->
-    <header id="site-header" class="fixed-top">
-      <div class="container">
-          <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
-            <h1> <a style="color: red;" class="navbar-brand" href="index.html"> 
-              NEOSOLUS
-            </a></h1>
-              <!-- if logo is image enable this   
-  <a class="navbar-brand" href="#index.html">
-      <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
-  </a> -->
-              <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
-                  data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
-                  aria-label="Toggle navigation">
-                  <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
-                  <span class="navbar-toggler-icon fa icon-close fa-times"></span>
-              </button>
+  <!--header-->
+  <header id="site-header" class="fixed-top">
+    <div class="container">
+      <nav class="navbar navbar-expand-lg stroke px-0 pt-lg-0">
+        <h1>
+          <a class="navbar-brand" href="index.html">
+            <img src="assets/images/weblogo1.png" alt="NEOSOLUS Logo" title="LOGO" style="height: 40px;" />
+            NEOSOLUS
+            <!-- <span style="color:#ff0000">O</span>S<span style="color:#ff0000">O</span> -->
+          </a>
+        </h1>
+        <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse"
+          data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+          <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+        </button>
 
-              <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                  <ul class="navbar-nav mr-lg-auto">
-                      <li class="nav-item">
-                          <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
-                      </li>
-                      <li class="nav-item">
-                          <a class="nav-link" href="about.html">About</a>
-                      </li>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+          <ul class="navbar-nav mr-lg-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">About</a>
+            </li>
 
-                      <li class="nav-item">
-                        <a class="nav-link" href="blog.html">Blog</a>
-                      </li>
-                     
-                      <!-- <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#Blog" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Blog <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                              <a class="dropdown-item" href="blog.html">Blog posts</a>
-                              <a class="dropdown-item" href="blog-single.html">Blog single post</a>
-                          </div>
-                      </li> -->
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button"
-                              data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                              Services <span class="fa fa-angle-down"></span>
-                          </a>
-                          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="services.html">Services</a>
-                              <!-- <a class="dropdown-item" href="error.html">404 page</a> -->
-                              <!-- <a class="dropdown-item" href="email.html">Email Page</a> -->
-                              <a class="dropdown-item" href="elements.html">Elements</a>
-                              <!-- <a class="dropdown-item" href="landing-single.html">Landing page</a> -->
-                              <!-- <a class="dropdown-item" href="contact.html">Contact us</a> -->
-                          </div>
-                      </li>
-                      <li class="nav-item">
-                        <a class="nav-link" href="contact.html">Contact us</a>
-                    </li>
-                  </ul>
-                  <!--/search-right-->
-                  <!-- <div class="search-right">
-                      <div id="wrap">
-                        <form action="" autocomplete="on">
-                          <input id="search" name="search" type="text" placeholder="Search here..."><input id="search_submit"
-                            value="Rechercher" type="submit">
-                        </form>
-                      </div> -->
-                      <!-- /search popup -->
-                  <!-- </div> -->
-                  <!--//search-right-->
-                  <!-- <div class="top-quote mr-lg-3 mt-lg-0 mr-lg-4">
-                      <a href="contact.html" class="btn btn-style btn-white btn-primary">Request a Quote</a>
-                  </div> -->
+            <li class="nav-item">
+              <a class="nav-link" href="blog.html">Blog</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="services.html">Services</a>
+            </li>
+
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#Pages" id="navbarDropdown" role="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Contact us <span class="fa fa-angle-down"></span>
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="contact.html">Contact us</a>
+                <a class="dropdown-item" href="quote.html">Req. A Quote</a>
               </div>
-              <!-- toggle switch for light and dark theme -->
-              <div class="mobile-position">
-                  <nav class="navigation">
-                      <div class="theme-switch-wrapper">
-                          <label class="theme-switch" for="checkbox">
-                              <input type="checkbox" id="checkbox">
-                              <div class="mode-container">
-                                  <i class="gg-sun"></i>
-                                  <i class="gg-moon"></i>
-                              </div>
-                          </label>
-                      </div>
-                  </nav>
-              </div>
-              <!-- //toggle switch for light and dark theme -->
-          </nav>
-      </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
   </header>
   <!--//header-->
   <!--/inner-page-->
@@ -126,34 +84,40 @@
           <div class="header-title text-center">
             <h6 class="title-subhny"><span>Quick Quote</span></h6>
             <h3 class="title-w3l mb-2">Let your business take a flight with NEOSOLUS.
-              <span class="span-bold"></span></h3>
+              <span class="span-bold"></span>
+            </h3>
             <p class="mb-sm-5 mb-4">Tell us what Technology Hardware you need for your event and we'll get back to you.
             </p>
           </div>
           <form action="#" class="pt-lg-4" method="post">
             <div class="twice-two">
-              <input type="text" class="form-control" name="w3lCompanyName" id="w3lCompanyName" placeholder="Company Name" required="">
-              <input type="text" class="form-control" name="w3lContactPersonName" id="w3lContactPersonName" placeholder="Contact Person Name" required="">
+              <input type="text" class="form-control" name="w3lCompanyName" id="w3lCompanyName"
+                placeholder="Company Name" required="">
+              <input type="text" class="form-control" name="w3lContactPersonName" id="w3lContactPersonName"
+                placeholder="Contact Person Name" required="">
               <input type="email" class="form-control" name="w3lSender" id="w3lSender" placeholder="Email" required="">
-              <input type="tel" class="form-control" name="w3lPhoneNumber" id="w3lPhoneNumber" placeholder="Phone Number" required="">
-              <input type="tel" class="form-control" name="w3lPhoneNumber2" id="w3lPhoneNumbe2" placeholder="Alternate Contact No" required="">
-              <input type="text" class="form-control" name="w3lLocation" id="w3lLocation" placeholder="Location" required="">
-          
+              <input type="tel" class="form-control" name="w3lPhoneNumber" id="w3lPhoneNumber"
+                placeholder="Phone Number" required="">
+              <input type="tel" class="form-control" name="w3lPhoneNumber2" id="w3lPhoneNumbe2"
+                placeholder="Alternate Contact No" required="">
+              <input type="text" class="form-control" name="w3lLocation" id="w3lLocation" placeholder="Location"
+                required="">
+
               <!-- Equipment Type Dropdown -->
               <select class="form-control" name="w3lEquipmentType" id="w3lEquipmentType" required="">
-                  <option value="" selected disabled>Select Equipment Type</option>
-                  <option value="Laptop">Laptop</option>
-                  <option value="PC">PC</option>
+                <option value="" selected disabled>Select Equipment Type</option>
+                <option value="Laptop">Laptop</option>
+                <option value="PC">PC</option>
               </select>
 
               <!-- Processor Dropdown -->
               <select class="form-control" name="w3lProcessor" id="w3lProcessor" required="">
-                  <option value="" selected disabled>Select Processor</option>
-                  <option value="i5">Intel i5</option>
-                  <option value="i7">Intel i7</option>
+                <option value="" selected disabled>Select Processor</option>
+                <option value="i5">Intel i5</option>
+                <option value="i7">Intel i7</option>
               </select>
 
-              
+
               <!-- RAM Dropdown -->
               <select class="form-control" name="w3lRAM" id="w3lRAM" required="">
                 <option value="" selected disabled>Select RAM</option>
@@ -161,22 +125,24 @@
                 <option value="16GB">16 GB</option>
                 <option value="32GB">32 GB</option>
               </select>
-          
+
               <!-- Storage Dropdown -->
               <select class="form-control" name="w3lStorage" id="w3lStorage" required="">
-                  <option value="" selected disabled>Select Storage</option>
-                  <option value="256GB SSD">256GB SSD</option>
-                  <option value="512GB SSD">512GB SSD</option>
+                <option value="" selected disabled>Select Storage</option>
+                <option value="256GB SSD">256GB SSD</option>
+                <option value="512GB SSD">512GB SSD</option>
               </select>
-          
+
               <!-- Quantity Field -->
-              <input type="number" class="form-control" name="w3lQuantity" id="w3lQuantity" placeholder="Quantity" required="">
-          
+              <input type="number" class="form-control" name="w3lQuantity" id="w3lQuantity" placeholder="Quantity"
+                required="">
+
               <!-- Duration Field -->
-              <input type="text" class="form-control" name="w3lDuration" id="w3lDuration" placeholder="Duration" required="">
+              <input type="text" class="form-control" name="w3lDuration" id="w3lDuration" placeholder="Duration"
+                required="">
             </div>
-            <textarea name="w3lMessage" class="form-control" id="w3lMessage" placeholder="Tell us more about your requirement"
-              required=""></textarea>
+            <textarea name="w3lMessage" class="form-control" id="w3lMessage"
+              placeholder="Tell us more about your requirement" required=""></textarea>
             <div class="text-lg-center">
               <button type="submit" class="btn btn-primary btn-style mt-lg-5 mt-4">Submit</button>
             </div>
@@ -264,11 +230,13 @@
       </button>
       <script>
         // When the user scrolls down 20px from the top of the document, show the button
-        window.onscroll = function () {
+        window.onscroll = function ()
+        {
           scrollFunction()
         };
 
-        function scrollFunction() {
+        function scrollFunction()
+        {
           if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
             document.getElementById("movetop").style.display = "block";
           } else {
@@ -277,7 +245,8 @@
         }
 
         // When the user clicks on the button, scroll to the top of the document
-        function topFunction() {
+        function topFunction()
+        {
           document.body.scrollTop = 0;
           document.documentElement.scrollTop = 0;
         }
@@ -291,7 +260,8 @@
   <script src="assets/js/theme-change.js"></script>
   <!--/MENU-JS-->
   <script>
-    $(window).on("scroll", function () {
+    $(window).on("scroll", function ()
+    {
       var scroll = $(window).scrollTop();
 
       if (scroll >= 80) {
@@ -302,14 +272,17 @@
     });
 
     //Main navigation Active Class Add Remove
-    $(".navbar-toggler").on("click", function () {
+    $(".navbar-toggler").on("click", function ()
+    {
       $("header").toggleClass("active");
     });
-    $(document).on("ready", function () {
+    $(document).on("ready", function ()
+    {
       if ($(window).width() > 991) {
         $("header").removeClass("active");
       }
-      $(window).on("resize", function () {
+      $(window).on("resize", function ()
+      {
         if ($(window).width() > 991) {
           $("header").removeClass("active");
         }
