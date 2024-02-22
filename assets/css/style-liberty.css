@@ -4620,7 +4620,6 @@ input[type="button"].btn-block {
   padding-bottom: 0.3125rem;
   margin-right: 1rem;
   font-size: 1.25rem;
-  /* font-family: "Baumans", system-ui; */
   line-height: inherit;
   white-space: nowrap;
 }
@@ -17651,7 +17650,7 @@ header.nav-fixed {
 .navbar .navbar-brand {
   padding: 0px;
   color: #fff;
-  font-size: 36px;
+  font-size: 30px;
   padding: 0;
   margin-right: 2em;
   font-weight: 700;
@@ -18034,7 +18033,7 @@ nav ul li a:before {
   }
 
   .navbar .navbar-brand {
-    font-size: 25px;
+    font-size: 20px;
   }
 }
 
