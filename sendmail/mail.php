@@ -55,7 +55,12 @@
   $mail->Body = $body;
   
   // Send the email
-  $mail->send();
-  echo 'Message has been sent';
-  // $mail->smtpClose();
+  if ($mail->send()) {
+    // Redirect to success page
+    header("Location: success.html");
+    exit();
+  } else {
+    header("Location: page-error.html");
+    exit();
+  }
 ?>
