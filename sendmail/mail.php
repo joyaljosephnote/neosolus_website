@@ -4,9 +4,9 @@
   use PHPMailer\PHPMailer\Exception;
   
   // Include PHPMailer classes
-  require 'path/to/PHPMailer/src/Exception.php';
-  require 'path/to/PHPMailer/src/PHPMailer.php';
-  require 'path/to/PHPMailer/src/SMTP.php';
+  require 'phpmailer/src/Exception.php';
+  require 'phpmailer/src/PHPMailer.php';
+  require 'phpmailer/src/SMTP.php';
   
   // Create a new PHPMailer instance
   $mail = new PHPMailer(true);
