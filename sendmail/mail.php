@@ -32,12 +32,15 @@
   
   // Content
   $mail->isHTML(true);
-  $mail->Subject = 'Subject of the Email';
+  $mail->Subject = 'Subject : Complaint Portal';
   
-  $body = '<h1>Hi Its Code Only!';
+  $body = '<h2>Complaint Portal</h2>';
   
   if(trim(!empty($_POST['w3lName']))){
     $body .="<p>Name: <strong>".$_POST['w3lName']."</strong></p>";
+  }
+  if(trim(!empty($_POST['w3lSender']))){
+    $body .="<p>Sender Mail: <strong>".$_POST['w3lSender']."</strong></p>";
   }
   if(trim(!empty($_POST['w3lassetId']))){
     $body .="<p>Asset ID: <strong>".$_POST['w3lassetId']."</strong></p>";
@@ -53,6 +56,6 @@
   
   // Send the email
   $mail->send();
-  // echo 'Message has been sent';
-  $mail->smtpClose();
+  echo 'Message has been sent';
+  // $mail->smtpClose();
 ?>
