@@ -57,10 +57,14 @@
   // Send the email
   if ($mail->send()) {
     // Redirect to success page
-    header("Location: success.html");
-    exit();
+    echo '<script>
+              alert("Your complaint has been registered successfully. Our team will contact you within 24 hours on business days.");
+              window.location.href = "../complaints.html";
+          </script>';
   } else {
-    header("Location: page-error.html");
-    exit();
+    echo '<script>
+              alert("Message could not be sent");
+              window.location.href = "../complaints.html";
+          </script>';
   }
 ?>
