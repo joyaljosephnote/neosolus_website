@@ -25,25 +25,19 @@
   $mail->SMTPSecure = 'TLS'; // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
   
   // Recipients
-  $mail->setFrom('neosolus2023@gmail.com', 'Contact Form');
+  $mail->setFrom('neosolus2023@gmail.com', 'Email Subscription');
   
   $recipientName = filter_var($_POST['w3lName'], FILTER_SANITIZE_STRING);
   $mail->addAddress('neosolus2023@gmail.com', $recipientName);
   
   // Content
   $mail->isHTML(true);
-  $mail->Subject = 'Subject : Contact Form';
+  $mail->Subject = 'Subject : Email Subscription';
   
-  $body = '<h2>Contact Form</h2>';
+  $body = '<h2>Email Subscription</h2>';
   
-  if(trim(!empty($_POST['w3lName']))){
-    $body .="<p>Name: <strong>".$_POST['w3lName']."</strong></p>";
-  }
-  if(trim(!empty($_POST['w3lSender']))){
-    $body .="<p>Sender Mail: <strong>".$_POST['w3lSender']."</strong></p>";
-  }
-  if(trim(!empty($_POST['w3lMessage']))){
-    $body .="<p>Message: <strong>".$_POST['w3lMessage']."</strong></p>";
+  if(trim(!empty($_POST['subEmail']))){
+    $body .="<p>Subscription Mail ID: <strong>".$_POST['subEmail']."</strong></p>";
   }
   
   $mail->Body = $body;
@@ -52,13 +46,13 @@
   if ($mail->send()) {
     // Redirect to success page
     echo '<script>
-              alert("Message sent successfully. Our team will contact you within 24 hours on business days.");
-              window.location.href = "../contact/index.html";
+              alert("Subscribed");
+              window.location.href = "../index.html";
           </script>';
   } else {
     echo '<script>
-              alert("Message could not be sent");
-              window.location.href = "../contact/index.html";
+              alert("Subscription Error");
+              window.location.href = "../index.html";
           </script>';
   }
 ?>
