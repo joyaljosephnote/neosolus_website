@@ -47,12 +47,12 @@
     // Redirect to success page
     echo '<script>
               alert("Subscribed");
-              window.location.href = "index.html";
+              window.location.href = "../index.html";
           </script>';
   } else {
     echo '<script>
               alert("Subscription Error");
-              window.location.href = "index.html";
+              window.location.href = "../index.html";
           </script>';
   }
 ?>
