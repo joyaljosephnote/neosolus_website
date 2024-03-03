@@ -17,18 +17,18 @@
   
   // Server settings
   $mail->isSMTP();
-  $mail->Host       = 'smtp.gmail.com'; // Your SMTP server
+  $mail->Host       = 'smtppro.zoho.in'; // Your SMTP server
   $mail->SMTPAuth   = true;
-  $mail->Username   = 'neosolus2023@gmail.com'; // Your SMTP username
-  $mail->Password   = 'lfrh xyew zizj ueyu';   // Your SMTP password
+  $mail->Username   = 'accounts@neosolus.com'; // Your SMTP username
+  $mail->Password   = 'aDmkPWzsWg6m';   // Your SMTP password
   $mail->Port       = '587'; // TCP port to connect to
   $mail->SMTPSecure = 'TLS'; // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
   
   // Recipients
-  $mail->setFrom('neosolus2023@gmail.com', 'Contact Form');
+  $mail->setFrom('accounts@neosolus.com', 'Contact Form');
   
   $recipientName = filter_var($_POST['w3lName'], FILTER_SANITIZE_STRING);
-  $mail->addAddress('neosolus2023@gmail.com', $recipientName);
+  $mail->addAddress('accounts@neosolus.com', $recipientName);
   
   // Content
   $mail->isHTML(true);
