@@ -36,8 +36,8 @@
   
   $body = '<h2>Email Subscription</h2>';
   
-  if(trim(!empty($_POST['subEmail"']))){
-    $body .="<p>Subscription Mail ID: <strong>".$_POST['subEmail"']."</strong></p>";
+  if(trim(!empty($_POST['subEmail']))){
+    $body .="<p>Subscription Mail ID: <strong>".$_POST['subEmail']."</strong></p>";
   }
   
   $mail->Body = $body;
