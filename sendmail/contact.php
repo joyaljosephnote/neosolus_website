@@ -34,7 +34,7 @@
   $mail->isHTML(true);
   $mail->Subject = 'Subject : Contact Form';
   
-  $body = '<h2>Complaint Portal</h2>';
+  $body = '<h2>Contact Form</h2>';
   
   if(trim(!empty($_POST['w3lName']))){
     $body .="<p>Name: <strong>".$_POST['w3lName']."</strong></p>";
@@ -52,13 +52,13 @@
   if ($mail->send()) {
     // Redirect to success page
     echo '<script>
-              alert("Your complaint has been registered successfully. Our team will contact you within 24 hours on business days.");
-              window.location.href = "../complaints.html";
+              alert("Message sent successfully. Our team will contact you within 24 hours on business days.");
+              window.location.href = "../contact/index.html";
           </script>';
   } else {
     echo '<script>
               alert("Message could not be sent");
-              window.location.href = "../complaints.html";
+              window.location.href = "../contact/index.html";
           </script>';
   }
 ?>
