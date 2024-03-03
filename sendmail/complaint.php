@@ -60,12 +60,12 @@
     // Redirect to success page
     echo '<script>
               alert("Your complaint has been registered successfully. Our team will contact you within 24 hours on business days.");
-              window.location.href = "../complaints.html";
+              window.location.href = "../complaints/index.html";
           </script>';
   } else {
     echo '<script>
               alert("Message could not be sent");
-              window.location.href = "../complaints.html";
+              window.location.href = "../complaints/index.html";
           </script>';
   }
 ?>
