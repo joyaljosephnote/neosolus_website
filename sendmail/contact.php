@@ -25,14 +25,14 @@
   $mail->SMTPSecure = 'TLS'; // Enable TLS encryption, `PHPMailer::ENCRYPTION_SMTPS` also accepted
   
   // Recipients
-  $mail->setFrom('neosolus2023@gmail.com', 'Mail From Complaint Portal');
+  $mail->setFrom('neosolus2023@gmail.com', 'Contact Form');
   
   $recipientName = filter_var($_POST['w3lName'], FILTER_SANITIZE_STRING);
   $mail->addAddress('neosolus2023@gmail.com', $recipientName);
   
   // Content
   $mail->isHTML(true);
-  $mail->Subject = 'Subject : Complaint Portal';
+  $mail->Subject = 'Subject : Contact Form';
   
   $body = '<h2>Complaint Portal</h2>';
   
@@ -41,12 +41,6 @@
   }
   if(trim(!empty($_POST['w3lSender']))){
     $body .="<p>Sender Mail: <strong>".$_POST['w3lSender']."</strong></p>";
-  }
-  if(trim(!empty($_POST['w3lassetId']))){
-    $body .="<p>Asset ID: <strong>".$_POST['w3lassetId']."</strong></p>";
-  }
-  if(trim(!empty($_POST['w3lMobileNumber']))){
-    $body .="<p>Mobile Number: <strong>".$_POST['w3lMobileNumber']."</strong></p>";
   }
   if(trim(!empty($_POST['w3lMessage']))){
     $body .="<p>Message: <strong>".$_POST['w3lMessage']."</strong></p>";
