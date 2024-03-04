@@ -1,4 +1,4 @@
-sendmail/complaint.php
-sendmail/contact.php
-sendmail/emailSubscription.php
-sendmail/quote.php
+complaint.php
+contact.php
+emailSubscription.php
+quote.php
