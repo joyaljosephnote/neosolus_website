@@ -116,8 +116,12 @@
                 placeholder="Phone Number" required="">
               <input type="tel" class="form-control" name="w3lPhoneNumber2" id="w3lPhoneNumbe2"
                 placeholder="Alternate Contact No" required="">
-              <input type="text" class="form-control" name="w3lLocation" id="w3lLocation" placeholder="Location"
-                required="">
+
+              <!-- Location Dropdown -->
+              <select class="form-control" name="w3lLocation" id="w3lLocation" required="">
+                <option value="" selected disabled>Location</option>
+                <option value="Trivandrum, Kerala">Thiruvananthapuram, Kerala</option>
+              </select>
 
               <!-- Equipment Type Dropdown -->
               <select class="form-control" name="w3lEquipmentType" id="w3lEquipmentType" required="">
@@ -147,6 +151,7 @@
                 <option value="" selected disabled>Select Storage</option>
                 <option value="256GB SSD">256GB SSD</option>
                 <option value="512GB SSD">512GB SSD</option>
+                <option value="NO SSD">NO SSD</option>
               </select>
 
               <!-- Quantity Field -->
@@ -154,8 +159,12 @@
                 required="">
 
               <!-- Duration Field -->
-              <input type="text" class="form-control" name="w3lDuration" id="w3lDuration" placeholder="Duration"
-                required="">
+              <select class="form-control" name="w3lDuration" id="w3lDuration" required="">
+                <option value="" selected disabled>Duration</option>
+                <option value="256GB SSD">6 months</option>
+                <option value="512GB SSD">12 months</option>
+              </select>
+
             </div>
             <textarea name="w3lMessage" class="form-control" id="w3lMessage"
               placeholder="Tell us more about your requirement" required=""></textarea>
@@ -207,9 +216,12 @@
             <ul class="footers-17_social mt-lg-5 mt-4">
               <li><a href="https://wa.me/message/OCUG5QLUSW5SP1" class="whatsapp"><span
                     class="fab fa-whatsapp"></span></a></li>
-              <li><a href="https://www.facebook.com/profile.php?id=61556935821677&mibextid=rS40aB7S9Ucbxw6v" class="facebook"><span class="fab fa-facebook-f"></span></a></li>
-              <li><a href="https://linkedin.com/company/neosolus/" class="linkedin"><span class="fab fa-linkedin-in"></span></a></li>
-              <li><a href="https://www.instagram.com/neosolus?igsh=OWJjbWo3aGFtcml1" class="instagram"><span class="fab fa-instagram"></span></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=61556935821677&mibextid=rS40aB7S9Ucbxw6v"
+                  class="facebook"><span class="fab fa-facebook-f"></span></a></li>
+              <li><a href="https://linkedin.com/company/neosolus/" class="linkedin"><span
+                    class="fab fa-linkedin-in"></span></a></li>
+              <li><a href="https://www.instagram.com/neosolus?igsh=OWJjbWo3aGFtcml1" class="instagram"><span
+                    class="fab fa-instagram"></span></a></li>
             </ul>
           </div>
         </div>
