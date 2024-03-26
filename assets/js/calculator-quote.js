@@ -39,8 +39,7 @@ function calculate() {
       "&#128972; Total Rental Value: Rent for <b>" + period.toLocaleString() + "</b> months and pay only <b>"+rentalValue.toLocaleString()  + "!</b> Now that's what we call smart spending!<br><br><h4>Now, let's talk about the actual price: </h4><br>" +
       "Actual Price of one professional laptop: <b>₹" + actualPrice.toLocaleString() + "</b>. <br><br><b>But why buy when you can rent and save?</b><br><br><h4>Here's where renting really shines:</h4><br>" +
       "&#128972; Total Price of buying thees "+ quantity.toLocaleString() +" laptops: A whopping <b>₹" + totalBuyingAmount.toLocaleString() + "!</b> But with renting, you're saving <b>" +
-      difference.toLocaleString()+ "!</b> Now that's a deal you can't resist! <br><br><h4>So why wait? Rent now and experience the power of top-tier laptops without breaking the bank! Happy renting! </h4><br>" + "<div class='text-lg-center'>"+
-      '<a href="../quotation/index.html"><button class="btn btn-primary btn-style mt-lg-5 mt-4">Request a Quote</button></a> </div>';
+      difference.toLocaleString()+ "!</b> Now that's a deal you can't resist! <br><br><h4>So why wait? Rent now and experience the power of top-tier laptops without breaking the bank! Happy renting! </h4>";
   }
 
 }

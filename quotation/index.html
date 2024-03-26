@@ -110,13 +110,54 @@
       <div class="container">
         <div class="contactct-fm map-content-9">
           <div class="header-title text-center">
-            <h6 class="title-subhny"><span>Quick Quote</span></h6>
+            <h6 class="title-subhny"><span>Rental Calculator</span></h6>
             <h3 class="title-w3l mb-2">Let your business take a flight with NEOSOLUS.
               <span class="span-bold"></span>
             </h3>
-            <p class="mb-sm-5 mb-4">Tell us what Technology Hardware you need for your event and we'll get back to you.
+            <p class="mb-sm-5 mb-4">Empower Your Productivity with NEOSOLUS Laptop Rentals. Calculate Your Rental Cost Now!
             </p>
           </div>
+
+          <div class="pt-lg-4">
+            <div class="twice-two">
+
+              <select class="form-control" name="model" id="model" required="">
+                <option value="" selected disabled>Select Model</option>
+                <option value="Core i5_8GB256GB">Core i5/8GB/256GB</option>
+                <option value="Core i5_16GB512GB">Core i5/16GB/512GB</option>
+                <option value="Core i7_8GB256GB">Core i7/8GB/256GB</option>
+                <option value="Core i7_16GB512GB">Core i7/16GB/512GB</option>
+                <option value="Core i7_32GB512GB">Core i7/32GB/512GB</option>
+                <option value="MacBook i7_16GB512GB">MacBook i7/16GB/512GB</option>
+                <!-- Add more models as needed -->
+              </select>
+
+              <!-- Duration Field -->
+              <select class="form-control" name="period" id="period" required="">
+                <option value="" selected disabled>Duration</option>
+                <option value="6">6 months</option>
+                <option value="12">12 months</option>
+              </select>
+
+              <!-- Quantity Field -->
+              <input type="number" class="form-control" name="quantity" id="quantity" placeholder="Quantity" min="1"
+                value="1" required="">
+
+            </div>
+            <div class="text-lg-center">
+              <button onclick="calculate()" class="btn btn-primary btn-style mt-lg-5 mt-4">Calculate</button>
+            </div>
+            <div id="result">
+            </div>
+            <br>
+          </div>
+
+          <div class="header-title text-center">
+            <h6 class="title-subhny"><span>Make a Quick Quote <br></span></h6>
+            <p class="mb-sm-5 mb-4"><br>Tell us what Technology Hardware you need for your event and we'll get back to you.
+            </p>
+          </div>
+
           <form action="../sendmail/quote.php" class="pt-lg-4" method="post">
             <div class="twice-two">
               <input type="text" class="form-control" name="w3lCompanyName" id="w3lCompanyName"
@@ -292,6 +333,7 @@
   <!-- Template JavaScript -->
   <script src="../assets/js/jquery-3.3.1.min.js"></script>
   <script src="../assets/js/theme-change.js"></script>
+  <script src="../assets/js/calculator-quote.js"></script>
   <!--/MENU-JS-->
   <script>
     $(window).on("scroll", function ()
